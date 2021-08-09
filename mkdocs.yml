@@ -1,1 +1,45 @@
-site_name: My Docs
+site_name: Migaga
+repo_url: https://github.com/LewisHobden/Migaga
+repo_name: Migaga
+site_description: Welcome to the Migaga docs, here you can find some instructions on making use of the bot.
+theme:
+  name: 'material'
+  custom_dir: docs/overrides
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-purple
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: deep-purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  logo: images/logo.png
+  favicon: images/favicon.png
+
+extra_javascript:
+  - javascript/analytics.js
+
+edit_uri: ""
+
+nav:
+  - 'Introduction': 'index.md'
+  - 'Frequently Asked Questions': 'faq.md'
+  - 'Commands':
+      - 'Getting started': 'commands/index.md'
+      - 'Starboard': 'commands/starboard/'
+      - 'Miscellaneous': 'commands/misc.md'
+  - 'Development': 'setup.md'
+  - 'Privacy': 'privacy.md'
+  - 'Donations': https://ko-fi.com/backslashlewis
+  - 'Join our server': https://server.migaga.info/
+  - 'Invite the bot': https://invite.migaga.info/
