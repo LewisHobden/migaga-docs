@@ -34,10 +34,10 @@ edit_uri: ""
 nav:
   - 'Introduction': 'index.md'
   - 'Frequently Asked Questions': 'faq.md'
-  - 'Commands':
-      - 'Getting started': 'commands/index.md'
-      - 'Starboard': 'commands/starboard/'
-      - 'Miscellaneous': 'commands/misc.md'
+  - 'Features':
+      - 'Starboard': 'features/starboard/'
+      - 'Reaction Flairs': 'features/reaction-flairs/'
+      - 'Miscellaneous': 'features/misc.md'
   - 'Development': 'setup.md'
   - 'Privacy': 'privacy.md'
   - 'Donations': https://ko-fi.com/backslashlewis

@@ -10,6 +10,9 @@ People can vote for messages to be included in the starboard by reacting with an
 ### Slash Command
 `/starboard setup <channel> <emoji> [threshold]`
 
+**Permissions**  
+You must have "Manage Server" permissions to use this command.
+
 **Channel**  
 This channel will be setup as a starboard channel - Migaga will prevent people from talking in it and starred messages will be posted here.
 
@@ -28,12 +31,15 @@ No! Self-starred messages are ignored by the bot.
 Yes! You can use any emoji for the starboard, be careful with emoji from outside your server or when deleting emoji.
 
 ### Can I have more than one starboard? 
-Yes! You can have more than one starboard in your server, but only one emoji + channel pair at a time.
+Yes! You can have more than one starboard in your server, but only one starboard per channel.
+
+### Can I edit my starboard?
+Yes! Run the `/starboard setup` command a second time on the same channel and you can update your emoji or the reaction threshold.
 
 ## Examples
 ### Using the Command
-![Using the slash command](command.png)
+![Using the slash command](images/command.png)
 
 ### Starred Messages
-![Starred Message](starred-message.png)  
+![Starred Message](images/starred-message.png)  
 In this example: the emoji 🤩 is being used for the starboard.
