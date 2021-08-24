@@ -26,23 +26,22 @@ theme:
   logo: images/logo.png
   favicon: images/favicon.png
 
-extra_javascript:
-  - javascript/analytics.js
-
 edit_uri: ""
 
 nav:
   - 'Introduction': 'index.md'
-  - 'Frequently Asked Questions': 'faq.md'
+#  - 'Frequently Asked Questions': 'faq.md'
   - 'Configuration':
-      - 'Config Commands': 'configuration/config-commands/'
-      - 'Role Overrides': 'configuration/role-overrides/'
+      - 'Config Commands': 'configuration/config-commands.md'
+      - 'Role Overrides': 'configuration/role-overrides.md'
   - 'Features':
-      - 'Starboard': 'features/starboard/'
-      - 'Reaction Flairs': 'features/reaction-flairs/'
-      - 'Miscellaneous': 'features/misc.md'
-  - 'Development': 'setup.md'
-  - 'Privacy': 'privacy.md'
+      - 'Reaction Flairs': 'features/reaction-flairs/index.md'
+      - 'Message Events': 'features/message-events/index.md'
+      - 'Points': 'features/points/index.md'
+      - 'Starboard': 'features/starboard/index.md'
+#      - 'Miscellaneous': 'features/misc.md'
+#  - 'Development': 'setup.md'
+#  - 'Privacy': 'privacy.md'
   - 'Donations': https://ko-fi.com/backslashlewis
   - 'Join our server': https://server.migaga.info/
   - 'Invite the bot': https://invite.migaga.info/
