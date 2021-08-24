@@ -34,6 +34,9 @@ edit_uri: ""
 nav:
   - 'Introduction': 'index.md'
   - 'Frequently Asked Questions': 'faq.md'
+  - 'Configuration':
+      - 'Config Commands': 'configuration/config-commands/'
+      - 'Role Overrides': 'configuration/role-overrides/'
   - 'Features':
       - 'Starboard': 'features/starboard/'
       - 'Reaction Flairs': 'features/reaction-flairs/'

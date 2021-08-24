@@ -7,8 +7,7 @@ People can vote for messages to be included in the starboard by reacting with an
 - A starboard is connected to an emoji, whenever someone reacts to a message with that emoji it will be added to the starboard.
 
 ## Getting Started
-### Slash Command
-`/starboard setup <channel> <emoji> [threshold]`
+### `/starboard setup <channel> <emoji> [threshold]`
 
 **Permissions**  
 You must have "Manage Server" permissions to use this command.
