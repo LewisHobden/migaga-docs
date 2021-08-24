@@ -15,6 +15,8 @@ Be careful to make sure your new prefix is something your users can access easil
 Using this command will update the prefix that Migaga uses in your server.  
 By default, Migaga uses `!` to respond to all commands - you can update this to avoid conflicting with other bots or to enforce a bot policy in your server.
 
+**Example**  
+![Changing the prefix with a command](images/new-prefix.png)
 
 ### `/config points` and `/config points-emoji`
 See the [Points](/features/points/) feature for more details!
