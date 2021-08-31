@@ -39,6 +39,7 @@ nav:
       - 'Message Events': 'features/message-events/index.md'
       - 'Points': 'features/points/index.md'
       - 'Starboard': 'features/starboard/index.md'
+      - 'Welcome Messages': 'features/welcome-message/index.md'
 #      - 'Miscellaneous': 'features/misc.md'
 #  - 'Development': 'setup.md'
 #  - 'Privacy': 'privacy.md'
