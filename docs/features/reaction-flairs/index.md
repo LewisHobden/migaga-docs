@@ -75,3 +75,6 @@ Yes! See the same instructions as above for using role overrides.
 Migaga will reply to the person letting them know that their flairing has been successful. If you do not want this you can prevent Migaga from talking in that channel.    
 ![img_1.png](images/when-someone-reacts.png)
 ![img.png](images/when-someone-unreacts.png)
+
+--- 
+

@@ -9,8 +9,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep-purple
-      accent: purple
+      primary: purple
+      accent: cyan
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -18,8 +18,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: purple
-      accent: deep-purple
+      primary: deep-purple
+      accent: cyan
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -30,12 +30,13 @@ edit_uri: ""
 
 nav:
   - 'Introduction': 'index.md'
-#  - 'Frequently Asked Questions': 'faq.md'
+  - 'Getting Started': 'getting-started/index.md'
   - 'Configuration':
       - 'Config Commands': 'configuration/config-commands.md'
       - 'Role Overrides': 'configuration/role-overrides.md'
   - 'Features':
       - 'Reaction Flairs': 'features/reaction-flairs/index.md'
+      - 'Logging': 'features/server-logs/index.md'
       - 'Message Events': 'features/message-events/index.md'
       - 'Points': 'features/points/index.md'
       - 'Starboard': 'features/starboard/index.md'
