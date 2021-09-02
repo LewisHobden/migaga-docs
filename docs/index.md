@@ -9,6 +9,7 @@ Migaga is 100% open source and has been built for years with and by moderators o
 - Reaction and command flairing
 - Logging with granular controls.
 - A [points system](features/points/index.md) with a server and role-based leaderboards.
+- Custom (configurable!) [roles for server boosters](features/booster-roles/index.md).
 - [Much more!](features/index.md)
 
 --- 

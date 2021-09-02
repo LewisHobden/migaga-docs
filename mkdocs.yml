@@ -35,6 +35,7 @@ nav:
       - 'Config Commands': 'configuration/config-commands.md'
       - 'Role Overrides': 'configuration/role-overrides.md'
   - 'Features':
+      - 'Booster Roles': 'features/booster-roles/index.md'
       - 'Reaction Flairs': 'features/reaction-flairs/index.md'
       - 'Logging': 'features/server-logs/index.md'
       - 'Message Events': 'features/message-events/index.md'

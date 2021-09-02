@@ -17,3 +17,4 @@ You can use this screen as a checklist of things to set up to get the full benef
 - [Turn on logging](../features/server-logs/index.md)
 - [Create a welcome message](../features/server-logs/index.md)
 - [Set up a starboard](../features/starboard/index.md)
+- [Set up booster roles](../features/booster-roles/index.md)
