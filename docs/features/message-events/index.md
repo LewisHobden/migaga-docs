@@ -8,10 +8,10 @@ This is particularly useful for filtering profanity, or a lighthearted way to re
 
 ## Getting Started
 ### [Command] Setting up an auto-delete rule
-`/message events add-auto-delete <contains> <strict mode>`
+`/message event add-auto-delete <contains> <strict mode>`
 
 **Permissions**  
-You must have the "Manage Messages" privilege to use this slash command. 
+You must have the "Manage Server" permission to use this slash command. 
 
 **Contains**  
 This is the text to search the message for - Migaga searches messages loosely for this text. 
@@ -23,10 +23,10 @@ If strict mode is enabled, this event will only trigger if the messages contains
 Once the auto delete has been set up, Migaga will begin to automatically delete messages which contain the text you provided.. even if it is edited in.  
 
 ### [Command] Setting up an auto-respond rule
-`/message events add-auto-delete <contains> <response> <strict mode>`
+`/message event add-auto-reply <contains> <response> <strict mode>`
 
 **Permissions**  
-You must have the "Manage Messages" privilege to use this slash command.
+You must have the "Manage Server" permission to use this slash command.
 
 **Contains**  
 This is the text to search the message for - Migaga searches messages loosely for this text.
@@ -39,3 +39,7 @@ If strict mode is enabled, this event will only trigger if the messages contains
 
 **What to Expect**  
 Once the auto reply has been set up, Migaga will begin to automatically reply to which contain the text you provided.  
+
+## Examples
+![Migaga replying to a message that matched an auto-respond rule](images/shield-monado.png)  
+An auto-respond rule in action — Migaga replies in the channel, as a reply to the message that triggered it.
